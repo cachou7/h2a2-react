@@ -1,0 +1,382 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@keyframes zoomin {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(2);
+  }
+}
+
+body {
+  position: relative;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.welcome-background {
+  background-image: url('/assets/welcome1.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-color: #e9e9e9;
+  height: 100%;
+  opacity: 0.7;
+}
+
+.welcome-description{
+  position: absolute;
+  top: 22%;
+  padding: 2em;
+  color: white;
+}
+
+.header-description{
+  position: absolute;
+  top: 25%;
+  padding: 2em;
+  color: white;
+}
+
+.welcome-description h2, .header-description h2, .mainst-description h2, .description h2 {
+  font-size: 4em;
+}
+
+.description {
+  position: relative;
+  top: 15%;
+  padding: 2em;
+  color: black;
+}
+
+.nav-link{ 
+  cursor: pointer;
+}
+.nav-link{ 
+  margin-right: 2em;
+}
+.nav-link:hover{ 
+  color: #f97300; 
+}
+.navbar-collapse{ 
+  justify-content: flex-end;
+}
+
+#deals-background {
+  background-image: url('assets/cocktail.jpg');
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  background-color: #e9e9e9;
+  height: 100%;
+  top: -200em;
+  opacity: 0.75;
+}
+
+#todays-background {
+  background-image: url('assets/todays_background.jpg');
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  background-color: #e9e9e9;
+  opacity: 0.95;
+}
+
+#logo-transparent {
+    position: relative;
+    width: 20em;
+    height: 20em;
+    left: 38%;
+    max-width: 150em;
+}
+
+p.header-definition {
+  margin-right: 65%;
+}
+
+p.definition1 {
+  margin-right: 10%;
+}
+
+.location-img {
+  width: 100%;
+  padding-bottom: 10%;
+  opacity: 0.9;
+}
+
+.img-container{
+  position:relative;
+  display:inline-block;
+}
+
+.img-container .overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:black;
+  opacity:0;
+  transition:opacity 500ms ease-in-out;
+}
+
+.img-container .today-overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: rgba(55,93,44, 0.6);
+  opacity:1.5;
+  box-shadow: 0px 0px 28px #888888
+}
+
+.today-overlay span{
+  position:relative;
+  top:15%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:#fff;
+}
+
+.img-container:hover .overlay{
+  opacity:0.8;
+}
+.overlay span{
+  position:relative;
+  top:15%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:#fff;
+}
+
+.bar-logo{
+  position:absolute;
+  left:0;
+  right:0;
+  margin-top: 5%;
+  width: 80px;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.bar-location {
+  position: absolute;
+  margin-top: 15%;
+  font-size:10px;
+  color: white;
+  font-family: 'Abel', sans-serif;
+}
+
+.bar-number {
+  position: absolute;
+  margin-top:15%;
+  left:0;
+  font-size: 10px;
+  color: white;
+  font-family: 'Abel', sans-serif;
+}
+
+.bar-info {
+  position: absolute;
+  margin-top: 10%;
+  font-size: 12px;
+  color: white;
+  line-height: 0.5;
+  font-family: 'Abel', sans-serif;
+}
+
+p.bar-deals {
+  color:yellow;
+  font-size: 12px;
+  line-height: 0.5;
+}
+
+#mainst-background {
+  background-image: url('assets/mainst.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-color: #e9e9e9;
+  height: 100%;
+  top: -200em;
+  opacity: 1.2;
+}
+
+.mainst-description{
+  position: relative;
+  top: 28%;
+  padding: 2em;
+  color: white;
+}
+
+p.mainst-definition {
+  margin-right: 28%;
+}
+
+.header-link {
+  color:grey;
+  text-decoration: none;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 25px;
+  padding: 5%;
+  width: 20%;
+  display:flex;
+  position:relative;
+}
+
+.header-link:hover {
+  color:white;
+  text-decoration: none;
+}
+
+.map-header-link {
+  color:grey;
+  text-decoration: none;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 25px;
+  padding: 5%;
+  width: 20%;
+  display:flex;
+  position:relative;
+}
+
+.map-header-link:hover {
+  color:blue;
+  text-decoration: none;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 25px;
+  padding: 5%;
+}
+
+.today-header-link {
+  color:white;
+  text-decoration: none;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 24px;
+  padding: 5%;
+  width: 20%;
+  display:flex;
+  position:relative;
+}
+
+.today-header-link:hover {
+  color: white;
+  text-decoration: none;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 26px;
+  padding: 5%;
+}
+
+#header-navbar {
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  align-content: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  display: flex;
+}
+
+.navbar-nav > li{
+  padding-left:70px;
+  font-family: 'Kreon', serif;
+  font-size: 18px;
+}
+
+.todayLoc {
+  text-align: center;
+  font-size: 3.5em;
+  font-family: 'Unica One', cursive;
+}
+
+.todayDeals {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 2px;
+  color: white;
+}
+
+.todayBack{
+  background-color: #202020;
+  padding: 20px 10px;
+  margin: 5px; 
+  height: 100%;
+  box-shadow: 0px 0px 28px #888888
+
+}
+.todayLogo {
+  height:75px; 
+  display: block;
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+.noMarg {
+  margin-bottom: 0;
+}
+
+.topMarg {
+  margin-top: 5;
+}
+
+.scroller{
+  position: absolute; 
+  display: block;
+  height: 80px; 
+  bottom: 5%; 
+  margin-left: 46%; 
+  margin-right: auto;
+  z-index: 97;
+  opacity: 1;
+  border: 1px solid white;
+  border-radius: 50%
+}
+.scroller:hover{
+  opacity: .9;
+}
+.scrollerB{
+  position: absolute; 
+  display: block;
+  height: 80px; 
+  bottom: 5%; 
+  margin-left: 46%; 
+  margin-right: auto;
+  z-index: 2;
+}
+
+h5.todaysName {
+  font-size: 25px;
+  font-family: 'Josefin Slab', serif;
+}
+
+#todaysHours {
+  font-size: 11px;
+}
+
+.todaysInfo {
+  font-size: 12px;
+}
+
+#todaysBarDeals {
+  font-size: 14px;
+  color: #ffd11a;
+  font-family: 'Overpass', sans-serif;
+}

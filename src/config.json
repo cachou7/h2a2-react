@@ -1,0 +1,298 @@
+[
+  {
+    "southU": [
+      { 
+        "name": "charleys",
+        "full_name": "Good Time Charley's",
+        "address": "1140 S University Ave.",
+        "phone": "(734)-668-8411",
+        "img_urls": ["https://cachou7.github.io/h2a2/assets/charleys.jpg","https://cachou7.github.io/h2a2/assets/charleys2.jpg", "https://cachou7.github.io/h2a2/assets/charleys3.jpg"],
+        "logo": "https://cachou7.github.io/h2a2/assets/charleys_logo_transparent.png",
+        "days": "Monday-Friday",
+        "day_arr": [false, true, true, true, true, true, false],
+        "hours": "4pm-7pm",
+        "deals": ["$3 well drinks, $2 tall beers, $3.50 pitchers"],
+        "placeid": "ChIJeY2nMUSuPIgR23r6dNopAv0",
+        "latlng": [42.274967, -83.734831],
+        "website": "https://www.charleysannarbor.com/"
+      },
+      { 
+        "name": "blep",
+        "full_name": "The Blue Leprechaun",
+        "address": "1220 S University Ave.",
+        "phone": "(734)-665-7777",
+        "img_urls": ["https://cachou7.github.io/h2a2/assets/blep.jpg","https://cachou7.github.io/h2a2/assets/blep2.jpg", "https://cachou7.github.io/h2a2/assets/blep3.jpeg"],
+        "logo": "https://cachou7.github.io/h2a2/assets/blep_logo.png",
+        "days": "Monday-Friday",
+        "day_arr": [false, true, true, true, true, true, false],
+        "hours": "2pm-8pm",
+        "deals": ["$2 domestic bottles and shot specials","$4 bombs and $5 pitchers of Miller Lite"],
+        "placeid": "ChIJFcckUUSuPIgRwZ7I82nO19E",
+        "latlng": [42.275056, -83.733542],
+        "website": "http://www.theblueleprechaun.com/"
+      },
+      { 
+        "name": "brownjug",
+        "full_name": "The Brown Jug",
+        "address": "1204 S University Ave.",
+        "phone": "(734)-761-3355",
+        "img_urls": ["https://cachou7.github.io/h2a2/assets/brownjug.jpg","https://cachou7.github.io/h2a2/assets/brownjug2.jpg", "https://cachou7.github.io/h2a2/assets/brownjug3.JPG"],
+        "logo": "https://cachou7.github.io/h2a2/assets/brownjug_logo.png",
+        "days": "Monday-Thursday",
+        "day_arr": [false, true, true, true, true, false, false],
+        "hours": "2pm-5pm",
+        "deals": ["$2.75 Miller & Leine's Tall Drafts", "$3.75 Premium Pints and $3.75 Long Islands"],
+        "placeid": "ChIJgxFrSUSuPIgRNMHA3whSTiA",
+        "latlng": [42.275012, -83.734247],
+        "website": "http://www.brownjug-annarbor.com/"
+      },
+      { 
+        "name": "garagebar",
+        "full_name": "The Garage Bar",
+        "address": "618 Church St.",
+        "phone": "(734)-995-5095",
+        "img_urls": ["https://cachou7.github.io/h2a2/assets/garagebar.jpg", "https://cachou7.github.io/h2a2/assets/garagebar2.jpg", "https://cachou7.github.io/h2a2/assets/garagebar3.jpg"],
+        "logo": "https://cachou7.github.io/h2a2/assets/garagebar_logo.png",
+        "days": "Monday-Friday",
+        "day_arr": [false, true, true, true, true, true, false],
+        "hours": "5pm-6pm",
+        "deals": ["$5 long islands and $4+ select 22oz drafts"],
+        "placeid": "ChIJNcYgzEWuPIgRO70VE2u5f6s",
+        "latlng": [42.274363, -83.734783],
+        "website": "https://garagebarannarbor.com/"
+      },
+      { 
+        "name": "cantina",
+        "full_name": "Cantina Taqueria + Bar",
+        "address": "1140 S University Ave.",
+        "phone": "(734)-222-3715",
+        "img_urls": ["https://cachou7.github.io/h2a2/assets/cantina.jpg","https://cachou7.github.io/h2a2/assets/cantina2.jpg","https://cachou7.github.io/h2a2/assets/cantina3.jpg"],
+        "logo": "https://cachou7.github.io/h2a2/assets/cantina_logo.png",
+        "days": "Tuesday-Friday",
+        "day_arr": [false, false, true, true, true, true, false],
+        "hours": "5pm-6pm",
+        "deals": ["$3 frozen margaritas and $1.50 Tecate cans"],
+        "placeid": "ChIJeY2nMUSuPIgRbA4Mf8FEcNQ",
+        "latlng": [42.275029, -83.734837],
+        "website": "https://cantinaannarbor.com/"
+      }
+    ]
+  },
+  { 
+    "main" : [
+      { 
+        "name": "bluetractor",
+        "full_name": "Blue Tractor",
+        "address": "207 E Washington St",
+        "phone": "(734)-222-4095",
+        "img_urls": ["https://cachou7.github.io/h2a2/assets/bluetractor.jpg", "https://cachou7.github.io/h2a2/assets/bluetractor2.JPG","https://cachou7.github.io/h2a2/assets/bluetractor3.jpg"],
+        "logo": "https://cachou7.github.io/h2a2/assets/bluetractor_logo.png",
+        "days": "Monday-Friday",
+        "day_arr": [false, true, true, true, true, true, false],
+        "hours": "3pm-6pm",
+        "deals": ["20% off draft beer"],
+        "placeid": "ChIJpV_z0T2uPIgRoG99QZpngLA",
+        "latlng": [42.280863, -83.746940],
+        "website": "http://www.bluetractor.net/bta/a2/index"
+      },
+      { 
+        "name": "arborbrewingco",
+        "full_name": "Arbor Brewing Co.",
+        "address": "114 E Washington St.",
+        "phone": "(734)-213-1393",
+        "img_urls": ["https://cachou7.github.io/h2a2/assets/abc.jpg", "https://cachou7.github.io/h2a2/assets/abc2.jpg", "https://cachou7.github.io/h2a2/assets/abc3.jpg"],
+        "logo": "https://cachou7.github.io/h2a2/assets/abc_logo.png",
+        "days": "Monday-Friday",
+        "day_arr": [false, true, true, true, true, true, false],
+        "hours": "All Day",
+        "deals": ["$2.50 large beers, $4+ glasses of wine", "$16+ bottles of wine"],
+        "placeid": "ChIJja88sj2uPIgRNqaMZdFWKIA",
+        "latlng": [42.280508, -83.747715],
+        "website": "https://arborbrewing.com/"
+      },
+      { 
+        "name": "conoroneills",
+        "full_name": "Conor O'Neill's",
+        "address": "318 S Main St.",
+        "phone": "(734)-665-2968",
+        "img_urls": ["https://cachou7.github.io/h2a2/assets/conors.jpg","https://cachou7.github.io/h2a2/assets/conors2.JPG","https://cachou7.github.io/h2a2/assets/conors3.png"],
+        "logo": "https://cachou7.github.io/h2a2/assets/conors_logo.png",
+        "days": "Monday-Friday",
+        "day_arr": [false, true, true, true, true, true, false],
+        "hours": "4pm-7pm",
+        "deals": ["$1.50 off draft beers, $1 off all drinks"],
+        "placeid": "ChIJCzlHZzyuPIgRzjVrwaV1lUs",
+        "latlng": [42.279045, -83.748986],
+        "website": "http://www.conoroneills.com/annarbor/"
+      },
+      { 
+        "name": "jollypumpkin",
+        "full_name": "The Jolly Pumpkin",
+        "address": "311 S Main St.",
+        "phone": "(734)-913-2730",
+        "img_urls": ["https://cachou7.github.io/h2a2/assets/jp.jpg","https://cachou7.github.io/h2a2/assets/jp2.jpg","https://cachou7.github.io/h2a2/assets/jp3.jpg"],
+        "logo": "https://cachou7.github.io/h2a2/assets/jp_logo.png",
+        "days": "Monday-Thursday",
+        "day_arr": [false, true, true, true, true, false, false],
+        "hours": "4pm-6pm",
+        "deals": ["$1 off drafts, bottles, wines, and cocktails"],
+        "placeid": "ChIJzQ_7XDyuPIgReuoJA541_NA",
+        "latlng": [42.279349, -83.748430],
+        "website": "http://brewery.jollypumpkin.com/ann-arbor-untappd/"
+      },
+      { 
+        "name": "blackpearl",
+        "full_name": "The Black Pearl",
+        "address": "302 S Main St.",
+        "phone": "(734)-222-0400",
+        "img_urls": ["https://cachou7.github.io/h2a2/assets/blackpearl.jpg","https://cachou7.github.io/h2a2/assets/blackpearl2.jpeg","https://cachou7.github.io/h2a2/assets/blackpearl3.jpg"],
+        "logo": "https://cachou7.github.io/h2a2/assets/blackpearl_logo.png",
+        "days": "Monday-Friday",
+        "day_arr": [false, true, true, true, true, true, false],
+        "hours": "5pm-6pm",
+        "deals": ["$3 12oz beer and $5 well drinks"],
+        "placeid": "ChIJK3b_WjyuPIgRYJeutjpr3Xo",
+        "latlng": [42.279589, -83.748923],
+        "website": "https://www.blackpearlannarbor.com/"
+      },
+      { 
+        "name": "ravensclub",
+        "full_name": "The Raven's Club",
+        "address": "207 S Main St.",
+        "phone": "(734)-214-0400",
+        "img_urls": ["https://cachou7.github.io/h2a2/assets/trc.jpg","https://cachou7.github.io/h2a2/assets/trc2.jpg","https://cachou7.github.io/h2a2/assets/trc3.jpg"],
+        "logo": "https://cachou7.github.io/h2a2/assets/trc_logo.png",
+        "days": "Monday-Friday",
+        "day_arr": [false, true, true, true, true, true, false],
+        "hours": "4pm-6pm",
+        "deals": ["$7 cocktails and $1 off select draft beer"],
+        "placeid": "ChIJ_4VJrT2uPIgR1IKkJ4D65F8",
+        "latlng": [42.280376, -83.748300],
+        "website": "http://theravensclub.com/"
+      },
+      { 
+        "name": "lastword",
+        "full_name": "The Last Word",
+        "address": "301 W Huron St.",
+        "phone": "(734)-213-7400",
+        "img_urls": ["https://cachou7.github.io/h2a2/assets/lastword.jpg","https://cachou7.github.io/h2a2/assets/lastword2.jpg","https://cachou7.github.io/h2a2/assets/lastword3.JPG"],
+        "logo": "https://cachou7.github.io/h2a2/assets/lastword_logo.png",
+        "days": "Tuesday-Saturday",
+        "day_arr": [false, false, true, true, true, true, true],
+        "hours": "5pm-7pm",
+        "deals": ["25% off total bill"],
+        "placeid": "ChIJYZxROD2uPIgRdPRUUywbpo8",
+        "latlng": [42.281561, -83.751586],
+        "website": "https://thelastwordbar.com/"
+      }
+    ]
+  },
+  { 
+    "kerrytown" : [
+      { 
+        "name": "autbar",
+        "full_name": "Aut Bar",
+        "address": "315 Braun Ct.",
+        "phone": "(734)-994-3677",
+        "img_urls": ["https://cachou7.github.io/h2a2/assets/autbar.jpg","https://cachou7.github.io/h2a2/assets/autbar2.jpg","https://cachou7.github.io/h2a2/assets/autbar3.jpg"],
+        "logo": "https://cachou7.github.io/h2a2/assets/autbar_logo.gif",
+        "days": "Monday-Friday",
+        "day_arr": [false, true, true, true, true, true, false],
+        "hours": "4pm-6pm",
+        "deals": ["$2 domestic beers, $3 specialty & import beers","$2.25 well drinks"],
+        "placeid": "ChIJnZvJbBauPIgRhztNmzsq5wc",
+        "latlng": [42.283967, -83.747417],
+        "website": "http://www.autbar.com/"
+      },
+      { 
+        "name": "caseys",
+        "full_name": "Casey's Tavern",
+        "address": "304 Depot St.",
+        "phone": "(734)-665-6775",
+        "img_urls": ["https://cachou7.github.io/h2a2/assets/caseys.jpg","https://cachou7.github.io/h2a2/assets/caseys2.jpg","https://cachou7.github.io/h2a2/assets/caseys3.jpg"],
+        "logo": "https://cachou7.github.io/h2a2/assets/caseys_logo.png",
+        "days": "Monday-Friday",
+        "day_arr": [false, true, true, true, true, true, false],
+        "hours": "3pm-6pm",
+        "deals": ["$1 off draft beers"],
+        "placeid": "ChIJv3u0hBOuPIgRLUh0a7-KhQQ",
+        "latlng": [42.288065, -83.744336],
+        "website": "http://caseys-tavern.com/"
+      },
+      { 
+        "name": "lunchroom",
+        "full_name": "The Lunch Room",
+        "address": "407 N 5th Ave.",
+        "phone": "(734)-224-8859",
+        "img_urls": ["https://cachou7.github.io/h2a2/assets/lunchroom.jpg","https://cachou7.github.io/h2a2/assets/lunchroom2.jpg","https://cachou7.github.io/h2a2/assets/lunchroom3.jpg"],
+        "logo": "https://cachou7.github.io/h2a2/assets/lunchroom_logo.png",
+        "days": "Tuesday-Friday",
+        "day_arr": [false, false, true, true, true, true, false],
+        "hours": "3pm-6pm",
+        "deals": ["$1 off all drinks"],
+        "placeid": "ChIJVVVV1hWuPIgRnnUCKv2f8xM",
+        "latlng": [42.284798, -83.746457],
+        "website": "https://thelunchrooma2.com/"
+      }
+    ]
+  },
+  { 
+    "liberty" : [
+      { 
+        "name": "Bar Louie",
+        "address": "401 E Liberty St #200",
+        "phone": "(734)-794-3000",
+        "img_url": "assets/barlouie.jpg",
+        "days": "Wednesday",
+        "day_arr": [false, false, false, true, false, false, false],
+        "hours": "All Day",
+        "deals": ["$1 Miller Light, Coors Light and Bud bottles","$2 Corona and Corona Light bottles all day"],
+        "placeid": "ChIJdc9KAj-uPIgRF_bGdp6gks8"
+      },
+      { 
+        "name": "Ashley's",
+        "address": "338 S State St.",
+        "phone": "(734)-996-9191",
+        "img_url": "assets/ashleys.jpg",
+        "days": "Monday-Friday",
+        "day_arr": [false, true, true, true, true, true, false],
+        "hours": "3pm-6pm",
+        "deals": ["$1 off draft beer, wine, and liquor"],
+        "placeid": "ChIJl1YrpECuPIgRm1WOQgwhqzA"
+      },
+      { 
+        "name": "Buffalo Wild Wings",
+        "address": "205 S State St.",
+        "phone": "(734)-997-9143",
+        "img_url": "assets/bww.jpg",
+        "days": "Monday-Friday",
+        "day_arr": [false, true, true, true, true, true, false],
+        "hours": "3pm-6pm",
+        "deals": ["$0.50 off tall draft beers"],
+        "placeid": "ChIJ0ddXY0CuPIgRESjalhDyTPk"
+      },
+      { 
+        "name": "Isalita",
+        "address": "314A E. Liberty St.",
+        "phone": "(734)-213-7400",
+        "img_url": "assets/ravensclub.jpg",
+        "days": "Tuesday-Friday",
+        "day_arr": [false, false, true, true, true, true, false],
+        "hours": "4:30pm-6:30pm",
+        "deals": ["$3 Mexican beer","$4 sangria", "$5 frozen and classico margaritas"],
+        "placeid": "ChIJxakU8D6uPIgRDkVcXiJ1mA4"
+      },
+      { 
+        "name": "Hopcat",
+        "address": "311 Maynard St.",
+        "phone": "(734)-436-2875",
+        "img_url": "assets/hopcat.jpg",
+        "days": "Monday-Thursday",
+        "day_arr": [false, true, true, true, true, false, false],
+        "hours": "2pm-6pm",
+        "deals": ["$3.50 \"Local30\" beers and select drafts, well coctails, and wine"],
+        "placeid": "ChIJ-6EpZD-uPIgR0O9Zn3hKH_I"
+      }
+    ]
+  }
+]
