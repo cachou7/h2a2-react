@@ -141,10 +141,10 @@ class DealsPage extends Component {
             </NavDropdown>
           </li>
           <li className="nav-item">
-            <Nav.Link className="nav-link text-center" data-value="map" href="https://cachou7.github.io/h2a2-react/map">Map View</Nav.Link>
+            <Nav.Link className="nav-link text-center" data-value="map" href="/map">Map View</Nav.Link>
           </li>
           <li className="nav-item">
-            <Nav.Link className="nav-link text-center" data-value="today" href="https://cachou7.github.io/h2a2-react/today">Today's Deals</Nav.Link>
+            <Nav.Link className="nav-link text-center" data-value="today" href="/today">Today's Deals</Nav.Link>
           </li>
         </Nav>
       </Navbar.Collapse>
