@@ -2,6 +2,7 @@
   "name": "h2a2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://cachou7.github.io/h2a2-react/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "google-maps-react": "^2.0.2",
@@ -18,7 +19,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -36,5 +39,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "file-loader": "^4.2.0",
+    "gh-pages": "^2.1.0",
+    "webpack-cli": "^3.3.6"
   }
 }
